@@ -117,12 +117,12 @@ sup {
 }
 
 a {
-  color: #5533ff;
+  color: #ffbc00;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #2600e6;
+  color: #b38400;
   text-decoration: underline;
 }
 
@@ -318,7 +318,7 @@ template {
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
-  --purple: #5533ff;
+  --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
@@ -329,7 +329,7 @@ template {
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #5533ff;
+  --primary: #ffbc00;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -404,21 +404,21 @@ template {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #cfc6ff;
+  background-color: #ffecb8;
 }
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #a795ff;
+  border-color: #ffdc7a;
 }
 
 .table-hover .table-primary:hover {
-  background-color: #baadff;
+  background-color: #ffe59f;
 }
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
-  background-color: #baadff;
+  background-color: #ffe59f;
 }
 
 .table-secondary,
@@ -831,13 +831,13 @@ mark,
 }
 
 .bg-primary {
-  background-color: #5533ff !important;
+  background-color: #ffbc00 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #2b00ff !important;
+  background-color: #cc9600 !important;
 }
 
 .bg-secondary {
@@ -959,7 +959,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #5533ff !important;
+  border-color: #ffbc00 !important;
 }
 
 .border-secondary {
@@ -4170,11 +4170,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #5533ff !important;
+  color: #ffbc00 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #2600e6 !important;
+  color: #b38400 !important;
 }
 
 .text-secondary {
@@ -4308,16 +4308,16 @@ a.text-dark:hover, a.text-dark:focus {
 
 .has-purple-color,
 .has-purple-color:visited {
-  color: #5533ff;
+  color: #6f42c1;
 }
 
 .has-purple-background-color {
-  background-color: #5533ff;
-  border-color: #5533ff;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
 }
 
 .wp-block-button:hover .wp-block-button__link.has-white-background-color.has-purple-color {
-  color: #5533ff;
+  color: #6f42c1;
 }
 
 .has-pink-color,
@@ -4462,16 +4462,16 @@ a.text-dark:hover, a.text-dark:focus {
 
 .has-primary-color,
 .has-primary-color:visited {
-  color: #5533ff;
+  color: #ffbc00;
 }
 
 .has-primary-background-color {
-  background-color: #5533ff;
-  border-color: #5533ff;
+  background-color: #ffbc00;
+  border-color: #ffbc00;
 }
 
 .wp-block-button:hover .wp-block-button__link.has-white-background-color.has-primary-color {
-  color: #5533ff;
+  color: #ffbc00;
 }
 
 .has-secondary-color,
