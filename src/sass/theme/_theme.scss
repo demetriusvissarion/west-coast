@@ -6,14 +6,26 @@ $secondary: black;
 $secondary-300: #3f3f3f;
 $secondary-200: #67686a;
 
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+
 body {
 	font-size: 18px;
 	font-family: "Roboto", sans-serif;
+	background: black;
+	color: wheat;
 }
 
 .top-header {
 	background: black;
 	height: 115px;
+	@media (max-width: $md) {
+		padding-top: 30px;
+		padding-bottom: 45px;
+		height: auto;
+	}
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -23,6 +35,10 @@ body {
 	background-repeat: no-repeat;
 	.top-header-contact {
 		display: flex;
+		justify-content: flex-end;
+		@media (max-width: $md) {
+			justify-content: space-around;
+		}
 		a {
 			display: inline-block;
 			color: white;
@@ -32,11 +48,22 @@ body {
 			border-radius: 1.5em;
 			font-size: 20px;
 			margin-left: 1em;
+			&.top-header-contact-email {
+				@media (max-width: $xl) {
+					display: none;
+				}
+			}
 			.fa {
 				color: $primary;
 				margin-right: 0.5em;
 			}
 		}
+	}
+	.mobile-holder-logo {
+		@media (max-width: $md) {
+			text-align: center;
+		}
+		margin-bottom: 30px;
 	}
 }
 
@@ -45,11 +72,40 @@ body {
 	border-top: 1px solid $secondary-200;
 	border-bottom: 1px solid $secondary-200;
 
+	#navbarNavDropdown {
+		@media (max-width: $xl) {
+			padding-top: 30px;
+		}
+	}
+
+	.mobile-menu-dropdown {
+		display: none;
+		@media (max-width: $md) {
+			display: block;
+		}
+		button {
+			color: white;
+			font-weight: bold;
+			padding: 10px;
+			border-radius: none;
+			border: none;
+			span {
+				margin-right: 0.5em;
+			}
+			&:hover {
+				background: black;
+			}
+		}
+	}
+
 	.search-input-holder {
 		border: 8px solid $primary;
 		background: white;
 		padding: 0px 10px;
 		width: 350px;
+		@media (max-width: $md) {
+			width: 100%;
+		}
 		border-radius: 15px;
 		margin-top: -30px;
 		margin-bottom: -30px;
@@ -60,6 +116,7 @@ body {
 			font-size: 22px;
 			font-weight: 300;
 			margin-right: 10px;
+			color: black;
 		}
 
 		input {
@@ -91,7 +148,14 @@ body {
 				}
 			}
 			.dropdown-menu {
-				background: black;
+				background: $secondary-300;
+				li {
+					a {
+						&:hover {
+							background: black;
+						}
+					}
+				}
 			}
 		}
 	}

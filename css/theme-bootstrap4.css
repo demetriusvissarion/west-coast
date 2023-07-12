@@ -14712,6 +14712,8 @@ figure.woocommerce-product-gallery__wrapper {
 body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+  background: black;
+  color: wheat;
 }
 
 .top-header {
@@ -14728,9 +14730,24 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+@media (max-width: 768px) {
+  .top-header {
+    padding-top: 30px;
+    padding-bottom: 45px;
+    height: auto;
+  }
+}
 .top-header .top-header-contact {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  .top-header .top-header-contact {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
 }
 .top-header .top-header-contact a {
   display: inline-block;
@@ -14742,15 +14759,54 @@ body {
   font-size: 20px;
   margin-left: 1em;
 }
+@media (max-width: 1200px) {
+  .top-header .top-header-contact a.top-header-contact-email {
+    display: none;
+  }
+}
 .top-header .top-header-contact a .fa {
   color: #ffbc00;
   margin-right: 0.5em;
+}
+.top-header .mobile-holder-logo {
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .top-header .mobile-holder-logo {
+    text-align: center;
+  }
 }
 
 #main-nav {
   background: #3f3f3f;
   border-top: 1px solid #67686a;
   border-bottom: 1px solid #67686a;
+}
+@media (max-width: 1200px) {
+  #main-nav #navbarNavDropdown {
+    padding-top: 30px;
+  }
+}
+#main-nav .mobile-menu-dropdown {
+  display: none;
+}
+@media (max-width: 768px) {
+  #main-nav .mobile-menu-dropdown {
+    display: block;
+  }
+}
+#main-nav .mobile-menu-dropdown button {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: none;
+  border: none;
+}
+#main-nav .mobile-menu-dropdown button span {
+  margin-right: 0.5em;
+}
+#main-nav .mobile-menu-dropdown button:hover {
+  background: black;
 }
 #main-nav .search-input-holder {
   border: 8px solid #ffbc00;
@@ -14765,10 +14821,16 @@ body {
   -ms-flex-align: center;
   align-items: center;
 }
+@media (max-width: 768px) {
+  #main-nav .search-input-holder {
+    width: 100%;
+  }
+}
 #main-nav .search-input-holder .title {
   font-size: 22px;
   font-weight: 300;
   margin-right: 10px;
+  color: black;
 }
 #main-nav .search-input-holder input {
   -ms-flex: 1;
@@ -14810,6 +14872,9 @@ body {
   color: #ffbc00;
 }
 #main-nav #main-menu li .dropdown-menu {
+  background: #3f3f3f;
+}
+#main-nav #main-menu li .dropdown-menu li a:hover {
   background: black;
 }
 
