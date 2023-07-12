@@ -14709,9 +14709,42 @@ figure.woocommerce-product-gallery__wrapper {
   clip: auto;
 }
 
-.top-header {
+body {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+#wrapper-navbar .top-header {
   background: black;
   height: 115px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url(../img/header-top-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#wrapper-navbar .top-header .top-header-contact {
+  display: -ms-flexbox;
+  display: flex;
+}
+#wrapper-navbar .top-header .top-header-contact a {
+  display: inline-block;
+  color: white;
+  border: 1px solid #ffbc00;
+  padding: 0.5em 1em;
+  background: black;
+  border-radius: 1.5em;
+  font-size: 20px;
+  margin-left: 1em;
+}
+#wrapper-navbar .top-header .top-header-contact a .fa {
+  color: #ffbc00;
+  margin-right: 0.5em;
 }
 
 /*# sourceMappingURL=theme-bootstrap4.css.map */

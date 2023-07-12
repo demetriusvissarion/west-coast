@@ -5,7 +5,36 @@ $primary-500: #dfa503;
 $secondary: black;
 $secondary-300: #3f3f3f;
 
-.top-header {
+body {
+	font-size: 18px;
+	font-family: "Roboto", sans-serif;
+}
+
+#wrapper-navbar .top-header {
 	background: black;
 	height: 115px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-image: url(../img/header-top-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	.top-header-contact {
+		display: flex;
+		a {
+			display: inline-block;
+			color: white;
+			border: 1px solid $primary;
+			padding: 0.5em 1em;
+			background: black;
+			border-radius: 1.5em;
+			font-size: 20px;
+			margin-left: 1em;
+			.fa {
+				color: $primary;
+				margin-right: 0.5em;
+			}
+		}
+	}
 }

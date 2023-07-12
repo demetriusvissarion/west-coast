@@ -21,7 +21,11 @@ $container = get_theme_mod('understrap_container_type');
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="Cache-control" content="no-cache">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
@@ -33,11 +37,20 @@ $container = get_theme_mod('understrap_container_type');
 		<div id="wrapper-navbar">
 
 			<div class="top-header">
-				<div class="row">
-					<div class="col-lg-5">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo" />
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5">
+							<a href="/">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo" />
+							</a>
+						</div>
+						<div class="col-lg-7">
+							<div class="top-header-contact">
+								<a href="tel:1800927831"><i class="fa fa-phone"></i>1800 927 831</a>
+								<a href="mailto:info@westcoastwaste.com.au"><i class="fa fa-envelope-o"></i>info@westcoastwaste.com.au</a>
+							</div>
+						</div>
 					</div>
-					<div class="col-lg-7"></div>
 				</div>
 			</div>
 

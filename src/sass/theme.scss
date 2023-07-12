@@ -5,9 +5,9 @@
 @import "theme/blocks"; // <--- This adds Bootstrap styles to blocks.
 
 // Optional files - If you dont use the corresponding plugins/scripts/fonts comment em out
-// import "theme/contact-form7"; // <--- Contact Form 7 - Bootstrap support
-// @import "theme/woocommerce"; // <--- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
-// @import "assets/fontawesome/font-awesome"; // <--- Font Awesome Icon font
+@import "theme/contact-form7"; // <--- Contact Form 7 - Bootstrap support
+@import "theme/woocommerce"; // <--- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+@import "assets/fontawesome/font-awesome"; // <--- Font Awesome Icon font
 
 // Any additional imported files //
 @import "theme/theme"; // <--- That's where you can add your own design. Thats your part!
