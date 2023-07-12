@@ -14752,6 +14752,52 @@ body {
   border-top: 1px solid #67686a;
   border-bottom: 1px solid #67686a;
 }
+#main-nav .search-input-holder {
+  border: 8px solid #ffbc00;
+  background: white;
+  padding: 0px 10px;
+  width: 350px;
+  border-radius: 15px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#main-nav .search-input-holder .title {
+  font-size: 22px;
+  font-weight: 300;
+  margin-right: 10px;
+}
+#main-nav .search-input-holder input {
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 22px;
+  padding: 20px 0px;
+  border: none;
+  outline: none;
+}
+#main-nav .search-input-holder input::-webkit-input-placeholder {
+  font-weight: bold;
+  color: black;
+}
+#main-nav .search-input-holder input::-moz-placeholder {
+  font-weight: bold;
+  color: black;
+}
+#main-nav .search-input-holder input:-ms-input-placeholder {
+  font-weight: bold;
+  color: black;
+}
+#main-nav .search-input-holder input::-ms-input-placeholder {
+  font-weight: bold;
+  color: black;
+}
+#main-nav .search-input-holder input::placeholder {
+  font-weight: bold;
+  color: black;
+}
 #main-nav #main-menu li a {
   font-size: 18px;
   font-weight: bold;
@@ -14762,6 +14808,9 @@ body {
 }
 #main-nav #main-menu li.current-menu-item a {
   color: #ffbc00;
+}
+#main-nav #main-menu li .dropdown-menu {
+  background: black;
 }
 
 /*# sourceMappingURL=theme-bootstrap4.css.map */

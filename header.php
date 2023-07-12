@@ -58,6 +58,11 @@ defined('ABSPATH') || exit;
 
 				<div class="container">
 
+					<div class="search-input-holder">
+						<div class="title">Quote: </div>
+						<input type="text" placeholder="Type your suburb here" />
+					</div>
+
 					<!-- The WordPress Menu goes here -->
 					<?php
 					wp_nav_menu(

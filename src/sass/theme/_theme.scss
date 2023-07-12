@@ -45,6 +45,36 @@ body {
 	border-top: 1px solid $secondary-200;
 	border-bottom: 1px solid $secondary-200;
 
+	.search-input-holder {
+		border: 8px solid $primary;
+		background: white;
+		padding: 0px 10px;
+		width: 350px;
+		border-radius: 15px;
+		margin-top: -30px;
+		margin-bottom: -30px;
+		display: flex;
+		align-items: center;
+
+		.title {
+			font-size: 22px;
+			font-weight: 300;
+			margin-right: 10px;
+		}
+
+		input {
+			flex: 1;
+			font-size: 22px;
+			padding: 20px 0px;
+			border: none;
+			outline: none;
+			&::placeholder {
+				font-weight: bold;
+				color: black;
+			}
+		}
+	}
+
 	#main-menu {
 		li {
 			a {
@@ -59,6 +89,9 @@ body {
 				a {
 					color: $primary;
 				}
+			}
+			.dropdown-menu {
+				background: black;
 			}
 		}
 	}
