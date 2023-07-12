@@ -14714,7 +14714,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-#wrapper-navbar .top-header {
+.top-header {
   background: black;
   height: 115px;
   display: -ms-flexbox;
@@ -14728,11 +14728,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-#wrapper-navbar .top-header .top-header-contact {
+.top-header .top-header-contact {
   display: -ms-flexbox;
   display: flex;
 }
-#wrapper-navbar .top-header .top-header-contact a {
+.top-header .top-header-contact a {
   display: inline-block;
   color: white;
   border: 1px solid #ffbc00;
@@ -14742,9 +14742,26 @@ body {
   font-size: 20px;
   margin-left: 1em;
 }
-#wrapper-navbar .top-header .top-header-contact a .fa {
+.top-header .top-header-contact a .fa {
   color: #ffbc00;
   margin-right: 0.5em;
+}
+
+#main-nav {
+  background: #3f3f3f;
+  border-top: 1px solid #67686a;
+  border-bottom: 1px solid #67686a;
+}
+#main-nav #main-menu li a {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#main-nav #main-menu li.current-menu-item a {
+  color: #ffbc00;
 }
 
 /*# sourceMappingURL=theme-bootstrap4.css.map */

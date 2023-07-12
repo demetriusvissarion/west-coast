@@ -4,13 +4,14 @@ $primary: #ffbc00;
 $primary-500: #dfa503;
 $secondary: black;
 $secondary-300: #3f3f3f;
+$secondary-200: #67686a;
 
 body {
 	font-size: 18px;
 	font-family: "Roboto", sans-serif;
 }
 
-#wrapper-navbar .top-header {
+.top-header {
 	background: black;
 	height: 115px;
 	display: flex;
@@ -34,6 +35,30 @@ body {
 			.fa {
 				color: $primary;
 				margin-right: 0.5em;
+			}
+		}
+	}
+}
+
+#main-nav {
+	background: $secondary-300;
+	border-top: 1px solid $secondary-200;
+	border-bottom: 1px solid $secondary-200;
+
+	#main-menu {
+		li {
+			a {
+				font-size: 18px;
+				font-weight: bold;
+				text-transform: uppercase;
+				color: white;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			&.current-menu-item {
+				a {
+					color: $primary;
+				}
 			}
 		}
 	}

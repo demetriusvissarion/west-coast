@@ -11,9 +11,9 @@
 // Exit if accessed directly.
 defined('ABSPATH') || exit;
 
-$bootstrap_version = get_theme_mod('understrap_bootstrap_version', 'bootstrap4');
-$navbar_type       = get_theme_mod('understrap_navbar_type', 'collapse');
-$container = get_theme_mod('understrap_container_type');
+// $bootstrap_version = get_theme_mod('understrap_bootstrap_version', 'bootstrap4');
+// $navbar_type       = get_theme_mod('understrap_navbar_type', 'collapse');
+// $container = get_theme_mod('understrap_container_type');
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -54,18 +54,25 @@ $container = get_theme_mod('understrap_container_type');
 				</div>
 			</div>
 
-			<nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-primary" aria-labelledby="main-nav-label">
+			<nav id="main-nav" class="navbar navbar-expand-lg " aria-labelledby="main-nav-label">
 
 				<div class="container">
 
-					<a class="skip-link <?php echo understrap_get_screen_reader_class(true); ?>" href="#content">
-						<?php esc_html_e('Skip to content', 'understrap'); ?>
-					</a>
-
-					<?php get_template_part('global-templates/navbar', $navbar_type . '-' . $bootstrap_version); ?>
-
+					<!-- The WordPress Menu goes here -->
+					<?php
+					wp_nav_menu(
+						array(
+							'theme_location'  => 'primary',
+							'container_class' => 'collapse navbar-collapse',
+							'container_id'    => 'navbarNavDropdown',
+							'menu_class'      => 'navbar-nav ml-auto',
+							'fallback_cb'     => '',
+							'menu_id'         => 'main-menu',
+							'depth'           => 2,
+							'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+						)
+					);
+					?>
 				</div>
-
 			</nav>
-
 		</div><!-- #wrapper-navbar -->
