@@ -36,9 +36,33 @@ body {
 	.top-header-contact {
 		display: flex;
 		justify-content: flex-end;
+
 		@media (max-width: $md) {
-			justify-content: space-around;
+			justify-content: space-between;
 		}
+
+		.mobile-menu-dropdown {
+			display: none;
+
+			@media (max-width: $md) {
+				display: block;
+			}
+			button {
+				color: white;
+				font-weight: bold;
+				padding: 0.5em 1em;
+				font-size: 20px;
+				border-radius: 0px;
+				border: none;
+				span {
+					margin-right: 0.5em;
+				}
+				&:hover {
+					background: black;
+				}
+			}
+		}
+
 		a {
 			display: inline-block;
 			color: white;
@@ -48,11 +72,17 @@ body {
 			border-radius: 1.5em;
 			font-size: 20px;
 			margin-left: 1em;
+
+			@media (max-width: $md) {
+				margin-left: 0px;
+			}
+
 			&.top-header-contact-email {
 				@media (max-width: $xl) {
 					display: none;
 				}
 			}
+
 			.fa {
 				color: $primary;
 				margin-right: 0.5em;
@@ -80,14 +110,17 @@ body {
 
 	.mobile-menu-dropdown {
 		display: none;
-		@media (max-width: $md) {
+		@media (max-width: $xl) {
 			display: block;
+		}
+		@media (max-width: $md) {
+			display: none;
 		}
 		button {
 			color: white;
 			font-weight: bold;
 			padding: 10px;
-			border-radius: none;
+			border-radius: 0px;
 			border: none;
 			span {
 				margin-right: 0.5em;
