@@ -269,13 +269,70 @@ body {
 
 	.home-hero-slider {
 		margin-top: 50px;
+		border-radius: 30px;
+		overflow: hidden;
+		margin-bottom: -110px;
+		@media (max-width: $md) {
+			margin-bottom: -175px;
+		}
+		position: relative;
+		z-index: 500;
 		.slide {
 			.image {
 				height: 420px;
 				background: red;
+				background-image: url(../img/slider-1.jpg);
+				background-size: cover;
+				background-position: center;
+				@media (max-width: $lg) {
+					height: 320px;
+				}
+				@media (max-width: $md) {
+					height: 210px;
+				}
 			}
 			.entry-content {
 				background: white;
+				height: 110px;
+				color: black;
+				font-size: 30px;
+				font-weight: bold;
+				display: flex;
+				line-height: 1.15em;
+				align-items: center;
+				padding-bottom: 5px;
+
+				@media (max-width: $md) {
+					height: 175px;
+					flex-direction: column;
+				}
+				.icon {
+					padding-left: 30px;
+					@media (max-width: $lg) {
+						display: none;
+					}
+					img {
+						max-height: 100px !important; // ddv 13/07/2023 16:45
+					}
+				}
+				.info {
+					padding-left: 30px;
+					font-size: 30px;
+					@media (max-width: $lg) {
+						font-size: 24px;
+					}
+				}
+				.slider-nav {
+					display: flex;
+					margin-right: 30px;
+					a {
+						margin-left: 0.25em;
+						margin-right: 0.25em;
+						font-size: 48px;
+						color: $primary;
+						display: inline-block;
+					}
+				}
 			}
 		}
 	}
@@ -284,4 +341,5 @@ body {
 .home-product-info {
 	height: 1000px;
 	background: $primary;
+	padding-top: 100px;
 }

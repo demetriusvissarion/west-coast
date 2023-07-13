@@ -60,6 +60,10 @@ if (is_page_template('page-templates/no-title.php')) {
 								<img src="<?php echo get_template_directory_uri(); ?>/img/home-slider-truck.svg" alt="Truck">
 							</div>
 							<div class="info">We deliver the right skip bin for your residential and commercial projects.</div>
+							<div class="slider-nav">
+								<a href="#"><i class="fa fa-arrow-circle-left"></i></a>
+								<a href="#"><i class="fa fa-arrow-circle-right"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -68,7 +72,7 @@ if (is_page_template('page-templates/no-title.php')) {
 	</div>
 </div>
 
-<div class="home-product-info"></div>
+<div class="home-product-info">home-product-info</div>
 
 
 <?php
