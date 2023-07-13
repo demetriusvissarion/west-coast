@@ -26,13 +26,24 @@ if (is_page_template('page-templates/no-title.php')) {
 
 <div class="home-hero-banner-top">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-8">
+		<div class="row align-items-end">
+
+			<div class="col-lg-8 col-xl-7">
 				<div class="skip-bin-info-holder">
+					<div class="overlay-image-arrow">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/home-hero-arrow-up.svg" alt="Arrow Up West Coast" />
+					</div>
 					<div class="title">
-						<i class="fa fa-chevron-top"></i> Skip Bin instant quote
+						<i class="fa fa-arrow-circle-up"></i> Skip Bin instant quote
 					</div>
 					<div class="desc">Simply type your suburb above and you will be provided with an instant price across our range</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 offset-xl-1">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/home-hero-right-info.svg" alt="West Coast Info" width="100%" />
+				<div class="seven-day-skip-info">
+					7-Day skip bin hire direct to your home covering Perth to Albany
 				</div>
 			</div>
 		</div>

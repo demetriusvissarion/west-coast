@@ -20,6 +20,8 @@ body {
 	min-height: 8000px;
 }
 
+// font-family: 'Just Another Hand', cursive;
+
 .top-header {
 	background: black;
 	height: 115px;
@@ -198,10 +200,24 @@ body {
 
 .home-hero-banner-top {
 	margin-top: 100px;
+
 	.skip-bin-info-holder {
 		border: 4px dashed $primary;
 		background: $secondary-500;
 		padding: 30px;
+		border-radius: 30px;
+		position: relative;
+
+		.overlay-image-arrow {
+			position: absolute;
+			bottom: 100%;
+			right: 25%;
+
+			img {
+				width: 135px;
+				height: 146px;
+			}
+		}
 
 		.title {
 			font-size: 48px;
@@ -215,6 +231,11 @@ body {
 			font-size: 24px;
 			font-weight: 300;
 			color: $primary;
+		}
+	}
+
+	.seven-day-skip-info {
+		.title {
 		}
 	}
 }
