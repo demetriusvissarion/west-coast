@@ -200,6 +200,9 @@ body {
 
 .home-hero-banner-top {
 	margin-top: 100px;
+	@media (max-width: $md) {
+		margin-top: 45px;
+	}
 
 	.skip-bin-info-holder {
 		border: 4px dashed $primary;
@@ -207,11 +210,18 @@ body {
 		padding: 30px;
 		border-radius: 30px;
 		position: relative;
+		@media (max-width: $md) {
+			padding: 15px;
+			border-radius: 15px;
+		}
 
 		.overlay-image-arrow {
 			position: absolute;
 			bottom: 100%;
 			right: 25%;
+			@media (max-width: $md) {
+				display: none;
+			}
 
 			img {
 				width: 135px;
@@ -222,6 +232,9 @@ body {
 		.title {
 			font-size: 48px;
 			font-weight: bold;
+			@media (max-width: $md) {
+				font-size: 30px;
+			}
 			.fa {
 				color: $primary;
 			}
@@ -231,11 +244,28 @@ body {
 			font-size: 24px;
 			font-weight: 300;
 			color: $primary;
+			@media (max-width: $md) {
+				font-size: 18px;
+			}
 		}
 	}
 
 	.seven-day-skip-info {
+		img {
+			@media (max-width: $lg) {
+				display: none;
+			}
+		}
+
 		.title {
+			display: none;
+			color: $primary;
+			font-size: 36px;
+			font-family: "Just Another Hand", cursive;
+			margin-top: 15px;
+			@media (max-width: $lg) {
+				display: block;
+			}
 		}
 	}
 }

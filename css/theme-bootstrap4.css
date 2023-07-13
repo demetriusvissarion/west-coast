@@ -14295,6 +14295,11 @@ body {
   bottom: 100%;
   right: 25%;
 }
+@media (max-width: 768px) {
+  .home-hero-banner-top .skip-bin-info-holder .overlay-image-arrow {
+    display: none;
+  }
+}
 .home-hero-banner-top .skip-bin-info-holder .overlay-image-arrow img {
   width: 135px;
   height: 146px;
@@ -14303,6 +14308,11 @@ body {
   font-size: 48px;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .home-hero-banner-top .skip-bin-info-holder .title {
+    font-size: 30px;
+  }
+}
 .home-hero-banner-top .skip-bin-info-holder .title .fa {
   color: #ffbc00;
 }
@@ -14310,6 +14320,28 @@ body {
   font-size: 24px;
   font-weight: 300;
   color: #ffbc00;
+}
+@media (max-width: 768px) {
+  .home-hero-banner-top .skip-bin-info-holder .desc {
+    font-size: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .home-hero-banner-top .seven-day-skip-info img {
+    display: none;
+  }
+}
+.home-hero-banner-top .seven-day-skip-info .title {
+  display: none;
+  color: #ffbc00;
+  font-size: 36px;
+  font-family: "Just Another Hand", cursive;
+  margin-top: 15px;
+}
+@media (max-width: 992px) {
+  .home-hero-banner-top .seven-day-skip-info .title {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=theme-bootstrap4.css.map */

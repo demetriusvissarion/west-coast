@@ -41,9 +41,11 @@ if (is_page_template('page-templates/no-title.php')) {
 			</div>
 
 			<div class="col-lg-4 offset-xl-1">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/home-hero-right-info.svg" alt="West Coast Info" width="100%" />
 				<div class="seven-day-skip-info">
-					7-Day skip bin hire direct to your home covering Perth to Albany
+					<img src="<?php echo get_template_directory_uri(); ?>/img/home-hero-right-info.svg" alt="West Coast Info" width="100%" />
+					<div class="title">
+						7-Day skip bin hire direct to your home covering Perth to Albany
+					</div>
 				</div>
 			</div>
 		</div>
