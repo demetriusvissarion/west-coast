@@ -20,8 +20,6 @@ body {
 	min-height: 8000px;
 }
 
-// font-family: 'Just Another Hand', cursive;
-
 .top-header {
 	background: black;
 	height: 115px;
@@ -268,4 +266,22 @@ body {
 			}
 		}
 	}
+
+	.home-hero-slider {
+		margin-top: 50px;
+		.slide {
+			.image {
+				height: 420px;
+				background: red;
+			}
+			.entry-content {
+				background: white;
+			}
+		}
+	}
+}
+
+.home-product-info {
+	height: 1000px;
+	background: $primary;
 }
