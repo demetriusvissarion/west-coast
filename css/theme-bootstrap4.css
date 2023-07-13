@@ -14714,6 +14714,7 @@ body {
   font-family: "Roboto", sans-serif;
   background: black;
   color: wheat;
+  min-height: 8000px;
 }
 
 .top-header {
@@ -14908,6 +14909,27 @@ body {
 }
 #main-nav #main-menu li .dropdown-menu li a:hover {
   background: black;
+}
+
+.home-hero-banner-top {
+  margin-top: 100px;
+}
+.home-hero-banner-top .skip-bin-info-holder {
+  border: 4px dashed #ffbc00;
+  background: #161616;
+  padding: 30px;
+}
+.home-hero-banner-top .skip-bin-info-holder .title {
+  font-size: 48px;
+  font-weight: bold;
+}
+.home-hero-banner-top .skip-bin-info-holder .title .fa {
+  color: #ffbc00;
+}
+.home-hero-banner-top .skip-bin-info-holder .desc {
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffbc00;
 }
 
 /*# sourceMappingURL=theme-bootstrap4.css.map */

@@ -3,6 +3,7 @@
 $primary: #ffbc00;
 $primary-500: #dfa503;
 $secondary: black;
+$secondary-500: #161616;
 $secondary-300: #3f3f3f;
 $secondary-200: #67686a;
 
@@ -16,6 +17,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	background: black;
 	color: wheat;
+	min-height: 8000px;
 }
 
 .top-header {
@@ -190,6 +192,29 @@ body {
 					}
 				}
 			}
+		}
+	}
+}
+
+.home-hero-banner-top {
+	margin-top: 100px;
+	.skip-bin-info-holder {
+		border: 4px dashed $primary;
+		background: $secondary-500;
+		padding: 30px;
+
+		.title {
+			font-size: 48px;
+			font-weight: bold;
+			.fa {
+				color: $primary;
+			}
+		}
+
+		.desc {
+			font-size: 24px;
+			font-weight: 300;
+			color: $primary;
 		}
 	}
 }

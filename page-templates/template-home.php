@@ -24,6 +24,20 @@ if (is_page_template('page-templates/no-title.php')) {
 }
 ?>
 
+<div class="home-hero-banner-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="skip-bin-info-holder">
+					<div class="title">
+						<i class="fa fa-chevron-top"></i> Skip Bin instant quote
+					</div>
+					<div class="desc">Simply type your suburb above and you will be provided with an instant price across our range</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 <?php
