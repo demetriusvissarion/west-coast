@@ -78,7 +78,7 @@ if (is_page_template('page-templates/no-title.php')) {
 		<div class="container">
 			<div class="home-special-offer">
 				<div class="discount-circle">
-					<div class="absolute-holder">
+					<div class="ab-holder">
 						<div class="save">Save</div>
 						<div class="percent">20%</div>
 					</div>
@@ -92,7 +92,59 @@ if (is_page_template('page-templates/no-title.php')) {
 		</div>
 	</div>
 
-	home-product-info
+	<div class="home-products-holder">
+		<div class="container">
+			<h2><i class="fa fa-arrow-circle-up"></i>Select the right skip bin for your project</h2>
+			<div class="home-products">
+				<div class="home-product">
+					<div class="row">
+						<div class="col-lg-4">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/product-placeholder.svg" alt="Product Placeholder" width="100%">
+						</div>
+
+						<div class="col-lg-4">
+							<div class="title">4 Cubic Metre Skip</div>
+							<ul>
+								<li>Garden & Household clean-up</li>
+								<li>Heavy Loads (dirt, concrete, bricks or rubble)</li>
+								<li>Ideal for narrow alleys or small streets</li>
+								<li>Building Sites</li>
+							</ul>
+						</div>
+
+						<div class="col-lg-4">
+							<div class="home-product-circles">
+
+								<div class="col-lg-6">
+									<div class="circle">
+										<div class="abs-circle-holder">
+											<div class="content-holder">Approx x 4 trailers</div>
+											<div class="icon">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/home-trailer.svg" alt="Product Trailer">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-6">
+									<div class="circle">
+										<div class="abs-circle-holder">
+											<div class="content-holder">Approx x 16 wheelie bins</div>
+											<div class="icon">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/home-bin.svg" alt="Product Bin">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="abs-holder-button">Get a quote for this skip bin</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 

@@ -378,9 +378,9 @@ body {
 }
 
 .home-product-info {
-	height: 1000px;
 	background: $primary;
 	padding-top: 200px;
+	padding-bottom: 100px;
 
 	.home-special-offer-background-overlay {
 		position: relative;
@@ -422,7 +422,7 @@ body {
 			display: inline-flex;
 			position: relative;
 
-			.absolute-holder {
+			.abs-holder {
 				flex-direction: column;
 				justify-content: center;
 				align-items: center;
@@ -497,6 +497,105 @@ body {
 				@media (max-width: $md) {
 					margin-top: 15px;
 					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+
+	.home-products-holder {
+		margin-top: 100px;
+		h2 {
+			font-size: 48px;
+			color: black;
+			font-weight: bold;
+			margin-bottom: 15px;
+
+			i {
+				margin-right: 0.25em;
+			}
+		}
+		.home-products {
+			.home-product {
+				border-radius: 15px;
+				background: white;
+				color: black;
+				padding: 30px;
+				position: relative;
+
+				img {
+				}
+				.title {
+					font-size: 30px;
+					font-weight: bold;
+					margin-bottom: 15px;
+				}
+				ul {
+					list-style: none;
+					margin: 0;
+					padding: 0;
+
+					li {
+						margin: 0;
+						padding: 0;
+						font-size: 16px;
+						font-weight: 300;
+
+						&:before {
+							content: "\f0da";
+							display: inline-block;
+							font-family: FontAwesome;
+							margin-right: 0.5em;
+							color: $primary;
+						}
+					}
+				}
+
+				.home-product-circles {
+					display: flex;
+					.circle {
+						width: 100%;
+						padding-top: 100%;
+						background: $primary;
+						border-radius: 50%;
+						position: relative;
+
+						.abs-circle-holder {
+							position: absolute;
+							top: 15px;
+							bottom: 15px;
+							left: 15px;
+							right: 15px;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							flex-direction: column;
+							text-align: center;
+							line-height: 1;
+
+							.content-holder {
+								font-weight: 500;
+								font-size: 16px;
+							}
+							.icon {
+								margin-top: 15px;
+							}
+						}
+					}
+				}
+
+				.abs-holder-button {
+					position: absolute;
+					bottom: 0;
+					left: 50%;
+					transform: translateX(-50%);
+					padding: 5px 30px;
+					font-size: 18px;
+					font-weight: bold;
+					color: white;
+					background: black;
+					border-top-left-radius: 15px;
+					border-top-right-radius: 15px;
+					text-transform: uppercase;
 				}
 			}
 		}
