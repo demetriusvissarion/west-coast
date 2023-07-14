@@ -14717,6 +14717,36 @@ body {
   min-height: 8000px;
 }
 
+.button {
+  display: inline-block;
+  color: white;
+  border: 1px solid #ffbc00;
+  padding: 0.5em 1em;
+  background: black;
+  border-radius: 1.5em;
+  font-size: 20px;
+  transition: ease 0.25s all;
+}
+@media (max-width: 768px) {
+  .button {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 1200px) {
+  .button.top-header-contact-email {
+    display: none;
+  }
+}
+.button .fa {
+  color: #ffbc00;
+  margin-right: 0.5em;
+}
+.button:hover {
+  background: #ffbc00;
+  color: white;
+  text-decoration: none;
+}
+
 .top-header {
   background: black;
   height: 115px;
@@ -14996,6 +15026,7 @@ body {
 @media (max-width: 768px) {
   .home-hero-banner-top .home-hero-slider {
     margin-bottom: -175px;
+    margin-top: 15px;
   }
 }
 .home-hero-banner-top .home-hero-slider .slide .image {
@@ -15023,7 +15054,7 @@ body {
   font-weight: bold;
   display: -ms-flexbox;
   display: flex;
-  line-height: 1.15em;
+  line-height: 1.15;
   -ms-flex-align: center;
   align-items: center;
   padding-bottom: 5px;
@@ -15082,7 +15113,73 @@ body {
 .home-product-info {
   height: 1000px;
   background: #ffbc00;
-  padding-top: 100px;
+  padding-top: 200px;
+}
+.home-product-info .home-special-offer-background-overlay {
+  position: relative;
+}
+.home-product-info .home-special-offer-background-overlay:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50px;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+.home-product-info .home-special-offer {
+  background: black;
+  border-radius: 15px;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px;
+  position: relative;
+  z-index: 500;
+}
+.home-product-info .home-special-offer .discount-circle {
+  height: 268px;
+  min-width: 268px;
+  border-radius: 50%;
+  background: white;
+  color: black;
+  line-height: 0.9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.home-product-info .home-special-offer .discount-circle .save {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.home-product-info .home-special-offer .discount-circle .percent {
+  font-size: 100px;
+  font-weight: 900;
+}
+.home-product-info .home-special-offer .entry-content {
+  padding-left: 50px;
+}
+.home-product-info .home-special-offer .entry-content .title {
+  font-size: 36px;
+  color: #ffbc00;
+  font-weight: bold;
+}
+@media (max-width: 992px) {
+  .home-product-info .home-special-offer .entry-content .title {
+    font-size: 30px;
+  }
+}
+.home-product-info .home-special-offer .entry-content .desc {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=theme-bootstrap4.css.map */
