@@ -78,8 +78,10 @@ if (is_page_template('page-templates/no-title.php')) {
 		<div class="container">
 			<div class="home-special-offer">
 				<div class="discount-circle">
-					<div class="save">Save</div>
-					<div class="percent">20%</div>
+					<div class="absolute-holder">
+						<div class="save">Save</div>
+						<div class="percent">20%</div>
+					</div>
 				</div>
 				<div class="entry-content">
 					<div class="title">15 Day Storm Special on Skip Bins</div>

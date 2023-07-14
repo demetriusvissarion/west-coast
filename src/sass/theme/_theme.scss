@@ -404,6 +404,11 @@ body {
 		position: relative;
 		z-index: 500;
 
+		@media (max-width: $md) {
+			display: block;
+			padding: 30px;
+		}
+
 		.discount-circle {
 			height: 268px;
 			min-width: 268px;
@@ -411,28 +416,71 @@ body {
 			background: white;
 			color: black;
 			line-height: 0.9;
-			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+			display: inline-flex;
+			position: relative;
+
+			.absolute-holder {
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				display: inline-flex;
+
+				@media (max-width: $md) {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
+			}
+
+			@media (max-width: $xl) {
+				height: 156px;
+				min-width: 156px;
+			}
+
+			@media (max-width: $md) {
+				margin-top: 15px;
+				width: 100%;
+				padding-top: 100%;
+			}
 
 			.save {
 				font-size: 48px;
 				font-weight: 900;
 				text-transform: uppercase;
+				@media (max-width: $xl) {
+					font-size: 30px;
+				}
+				@media (max-width: $md) {
+					font-size: 48px;
+				}
 			}
 			.percent {
 				font-size: 100px;
 				font-weight: 900;
+				@media (max-width: $xl) {
+					font-size: 48px;
+				}
+				@media (max-width: $md) {
+					font-size: 100px;
+				}
 			}
 		}
 		.entry-content {
 			padding-left: 50px;
+
+			@media (max-width: $md) {
+				padding-left: 0px;
+			}
+
 			.title {
 				font-size: 36px;
 				color: $primary;
 				font-weight: bold;
-				@media (max-width: $lg) {
+				@media (max-width: $xl) {
 					font-size: 30px;
 				}
 			}
@@ -441,6 +489,15 @@ body {
 				font-weight: 300;
 				margin-top: 30px;
 				margin-bottom: 30px;
+
+				@media (max-width: $xl) {
+					font-size: 18px;
+				}
+
+				@media (max-width: $md) {
+					margin-top: 15px;
+					margin-bottom: 15px;
+				}
 			}
 		}
 	}
