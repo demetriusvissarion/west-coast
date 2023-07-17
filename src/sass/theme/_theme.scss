@@ -712,18 +712,33 @@ body {
 #wrapper-footer {
 	padding: 100px;
 
+	@media (max-width: $md) {
+		padding: 30px;
+	}
+
 	.footer-testimonial {
 		text-align: center;
 		margin-bottom: 100px;
+
+		@media (max-width: $md) {
+			margin-bottom: 30px;
+		}
 
 		.testimonial {
 			.stars {
 				color: $primary;
 				font-size: 42px;
+
+				@media (max-width: $lg) {
+					font-size: 30px;
+				}
 			}
 			.quote {
 				font-size: 30px;
 				margin-bottom: 15px;
+				@media (max-width: $lg) {
+					font-size: 24px;
+				}
 			}
 			.author {
 				color: $primary;
@@ -738,9 +753,17 @@ body {
 		border-top-right-radius: 30px;
 		color: black;
 
+		@media (max-width: $md) {
+			padding: 30px;
+		}
+
 		.title {
 			font-size: 48px;
 			font-weight: bold;
+
+			@media (max-width: $md) {
+				font-size: 30px;
+			}
 		}
 
 		.desc {
@@ -748,10 +771,21 @@ body {
 			font-weight: 500;
 			margin-top: 30px;
 			margin-bottom: 30px;
+
+			@media (max-width: $md) {
+				font-size: 18px;
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
 		}
 
 		.contact-info {
 			font-size: 24px;
+
+			@media (max-width: $md) {
+				font-size: 18px;
+			}
+
 			div {
 				margin-bottom: 0.5em;
 			}
@@ -766,6 +800,10 @@ body {
 			background: black;
 			padding: 30px;
 			border-radius: 30px;
+
+			@media (max-width: $lg) {
+				margin-top: 30px;
+			}
 
 			input,
 			textarea {

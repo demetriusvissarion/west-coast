@@ -15457,17 +15457,37 @@ body {
 #wrapper-footer {
   padding: 100px;
 }
+@media (max-width: 768px) {
+  #wrapper-footer {
+    padding: 30px;
+  }
+}
 #wrapper-footer .footer-testimonial {
   text-align: center;
   margin-bottom: 100px;
+}
+@media (max-width: 768px) {
+  #wrapper-footer .footer-testimonial {
+    margin-bottom: 30px;
+  }
 }
 #wrapper-footer .footer-testimonial .testimonial .stars {
   color: #ffbc00;
   font-size: 42px;
 }
+@media (max-width: 992px) {
+  #wrapper-footer .footer-testimonial .testimonial .stars {
+    font-size: 30px;
+  }
+}
 #wrapper-footer .footer-testimonial .testimonial .quote {
   font-size: 30px;
   margin-bottom: 15px;
+}
+@media (max-width: 992px) {
+  #wrapper-footer .footer-testimonial .testimonial .quote {
+    font-size: 24px;
+  }
 }
 #wrapper-footer .footer-testimonial .testimonial .author {
   color: #ffbc00;
@@ -15479,9 +15499,19 @@ body {
   border-top-right-radius: 30px;
   color: black;
 }
+@media (max-width: 768px) {
+  #wrapper-footer .footer-contact-info {
+    padding: 30px;
+  }
+}
 #wrapper-footer .footer-contact-info .title {
   font-size: 48px;
   font-weight: bold;
+}
+@media (max-width: 768px) {
+  #wrapper-footer .footer-contact-info .title {
+    font-size: 30px;
+  }
 }
 #wrapper-footer .footer-contact-info .desc {
   font-size: 24px;
@@ -15489,8 +15519,20 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+@media (max-width: 768px) {
+  #wrapper-footer .footer-contact-info .desc {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
 #wrapper-footer .footer-contact-info .contact-info {
   font-size: 24px;
+}
+@media (max-width: 768px) {
+  #wrapper-footer .footer-contact-info .contact-info {
+    font-size: 18px;
+  }
 }
 #wrapper-footer .footer-contact-info .contact-info div {
   margin-bottom: 0.5em;
@@ -15503,6 +15545,11 @@ body {
   background: black;
   padding: 30px;
   border-radius: 30px;
+}
+@media (max-width: 992px) {
+  #wrapper-footer .footer-contact-info .contact-form-holder {
+    margin-top: 30px;
+  }
 }
 #wrapper-footer .footer-contact-info .contact-form-holder input,
 #wrapper-footer .footer-contact-info .contact-form-holder textarea {
