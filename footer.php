@@ -47,7 +47,11 @@ $container = get_theme_mod('understrap_container_type');
 						<div class="email"><i class="fa fa-envelope-o"></i> Email info@westcoastwaste.com.au</div>
 					</div>
 				</div>
-				<div class="col-lg-6"></div>
+				<div class="col-lg-6">
+					<div class="contact-form-holder">
+						<?php echo do_shortcode('[contact-form-7 id="21" title="Footer Contact Form"]') ?>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

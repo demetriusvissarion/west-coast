@@ -19,6 +19,10 @@ body {
 	color: wheat;
 }
 
+.wrapper {
+	padding: 0px;
+}
+
 .button {
 	display: inline-block;
 	color: white;
@@ -755,6 +759,30 @@ body {
 			.fa {
 				color: white;
 				min-width: 1.5em;
+			}
+		}
+
+		.contact-form-holder {
+			background: black;
+			padding: 30px;
+			border-radius: 30px;
+
+			input,
+			textarea {
+				border-radius: 10px;
+				margin-bottom: 5px;
+				font-size: 18px;
+				height: auto;
+				background: white;
+				border: none;
+				outline: none;
+
+				&[type="submit"] {
+					display: inline-block;
+					background: $primary-500;
+					color: white;
+					width: auto;
+				}
 			}
 		}
 	}

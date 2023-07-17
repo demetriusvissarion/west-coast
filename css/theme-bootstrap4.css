@@ -14716,6 +14716,10 @@ body {
   color: wheat;
 }
 
+.wrapper {
+  padding: 0px;
+}
+
 .button {
   display: inline-block;
   color: white;
@@ -15494,6 +15498,28 @@ body {
 #wrapper-footer .footer-contact-info .contact-info .fa {
   color: white;
   min-width: 1.5em;
+}
+#wrapper-footer .footer-contact-info .contact-form-holder {
+  background: black;
+  padding: 30px;
+  border-radius: 30px;
+}
+#wrapper-footer .footer-contact-info .contact-form-holder input,
+#wrapper-footer .footer-contact-info .contact-form-holder textarea {
+  border-radius: 10px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  height: auto;
+  background: white;
+  border: none;
+  outline: none;
+}
+#wrapper-footer .footer-contact-info .contact-form-holder input[type=submit],
+#wrapper-footer .footer-contact-info .contact-form-holder textarea[type=submit] {
+  display: inline-block;
+  background: #dfa503;
+  color: white;
+  width: auto;
 }
 
 /*# sourceMappingURL=theme-bootstrap4.css.map */
