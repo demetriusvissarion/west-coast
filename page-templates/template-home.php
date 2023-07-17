@@ -149,11 +149,11 @@ if (is_page_template('page-templates/no-title.php')) {
 				<div class="home-product">
 					<div class="row">
 						<div class="col-xl-4 col-md-6">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/product-placeholder.svg" alt="Product Placeholder" width="100%">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/6m3-Skip-Bin.svg" alt="6m3 Skip Bin" width="100%">
 						</div>
 
 						<div class="col-xl-4 col-md-6">
-							<div class="title">4 Cubic Metre Skip</div>
+							<div class="title">6 Cubic Metre Skip</div>
 							<ul>
 								<li>Garden & Household clean-up</li>
 								<li>Heavy Loads (dirt, concrete, bricks or rubble)</li>
@@ -169,7 +169,7 @@ if (is_page_template('page-templates/no-title.php')) {
 								<div class="offset-lg-3 offset-xl-0 offset-md-2 col-xl-6 col-lg-3 col-md-4 col-sm-6 col-6">
 									<div class="circle">
 										<div class="abs-circle-holder">
-											<div class="content-holder">Approx x 4 trailers</div>
+											<div class="content-holder">Approx x 6 trailers</div>
 											<div class="icon">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/home-trailer.svg" alt="Product Trailer">
 											</div>
@@ -180,7 +180,7 @@ if (is_page_template('page-templates/no-title.php')) {
 								<div class="col-xl-6 col-lg-3 col-md-4 col-sm-6 col-6">
 									<div class="circle">
 										<div class="abs-circle-holder">
-											<div class="content-holder">Approx x 16 wheelie bins</div>
+											<div class="content-holder">Approx x 24 wheelie bins</div>
 											<div class="icon">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/home-bin.svg" alt="Product Bin">
 											</div>
@@ -198,11 +198,11 @@ if (is_page_template('page-templates/no-title.php')) {
 				<div class="home-product">
 					<div class="row">
 						<div class="col-xl-4 col-md-6">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/product-placeholder.svg" alt="Product Placeholder" width="100%">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/9m3-Skip-Bin.svg" alt="Product Placeholder" width="100%">
 						</div>
 
 						<div class="col-xl-4 col-md-6">
-							<div class="title">4 Cubic Metre Skip</div>
+							<div class="title">9 Cubic Metre Skip</div>
 							<ul>
 								<li>Garden & Household clean-up</li>
 								<li>Heavy Loads (dirt, concrete, bricks or rubble)</li>
@@ -218,7 +218,7 @@ if (is_page_template('page-templates/no-title.php')) {
 								<div class="offset-lg-3 offset-xl-0 offset-md-2 col-xl-6 col-lg-3 col-md-4 col-sm-6 col-6">
 									<div class="circle">
 										<div class="abs-circle-holder">
-											<div class="content-holder">Approx x 4 trailers</div>
+											<div class="content-holder">Approx x 9 trailers</div>
 											<div class="icon">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/home-trailer.svg" alt="Product Trailer">
 											</div>
@@ -229,7 +229,7 @@ if (is_page_template('page-templates/no-title.php')) {
 								<div class="col-xl-6 col-lg-3 col-md-4 col-sm-6 col-6">
 									<div class="circle">
 										<div class="abs-circle-holder">
-											<div class="content-holder">Approx x 16 wheelie bins</div>
+											<div class="content-holder">Approx x 32 wheelie bins</div>
 											<div class="icon">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/home-bin.svg" alt="Product Bin">
 											</div>
@@ -247,11 +247,11 @@ if (is_page_template('page-templates/no-title.php')) {
 				<div class="home-product">
 					<div class="row">
 						<div class="col-xl-4 col-md-6">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/product-placeholder.svg" alt="Product Placeholder" width="100%">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/15m3-Skip-Bin.svg" alt="Product Placeholder" width="100%">
 						</div>
 
 						<div class="col-xl-4 col-md-6">
-							<div class="title">4 Cubic Metre Skip</div>
+							<div class="title">15 Cubic Metre Hook Lift Bin</div>
 							<ul>
 								<li>Garden & Household clean-up</li>
 								<li>Heavy Loads (dirt, concrete, bricks or rubble)</li>
@@ -267,7 +267,7 @@ if (is_page_template('page-templates/no-title.php')) {
 								<div class="offset-lg-3 offset-xl-0 offset-md-2 col-xl-6 col-lg-3 col-md-4 col-sm-6 col-6">
 									<div class="circle">
 										<div class="abs-circle-holder">
-											<div class="content-holder">Approx x 4 trailers</div>
+											<div class="content-holder">Approx x 15 trailers</div>
 											<div class="icon">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/home-trailer.svg" alt="Product Trailer">
 											</div>
@@ -278,7 +278,7 @@ if (is_page_template('page-templates/no-title.php')) {
 								<div class="col-xl-6 col-lg-3 col-md-4 col-sm-6 col-6">
 									<div class="circle">
 										<div class="abs-circle-holder">
-											<div class="content-holder">Approx x 16 wheelie bins</div>
+											<div class="content-holder">Approx x 64 wheelie bins</div>
 											<div class="icon">
 												<img src="<?php echo get_template_directory_uri(); ?>/img/home-bin.svg" alt="Product Bin">
 											</div>

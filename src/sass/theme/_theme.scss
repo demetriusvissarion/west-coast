@@ -726,4 +726,36 @@ body {
 			}
 		}
 	}
+
+	.footer-contact-info {
+		background: $primary;
+		padding: 60px;
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		color: black;
+
+		.title {
+			font-size: 48px;
+			font-weight: bold;
+		}
+
+		.desc {
+			font-size: 24px;
+			font-weight: 500;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+		.contact-info {
+			font-size: 24px;
+			div {
+				margin-bottom: 0.5em;
+			}
+
+			.fa {
+				color: white;
+				min-width: 1.5em;
+			}
+		}
+	}
 }

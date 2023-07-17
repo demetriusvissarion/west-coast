@@ -15468,5 +15468,32 @@ body {
 #wrapper-footer .footer-testimonial .testimonial .author {
   color: #ffbc00;
 }
+#wrapper-footer .footer-contact-info {
+  background: #ffbc00;
+  padding: 60px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  color: black;
+}
+#wrapper-footer .footer-contact-info .title {
+  font-size: 48px;
+  font-weight: bold;
+}
+#wrapper-footer .footer-contact-info .desc {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#wrapper-footer .footer-contact-info .contact-info {
+  font-size: 24px;
+}
+#wrapper-footer .footer-contact-info .contact-info div {
+  margin-bottom: 0.5em;
+}
+#wrapper-footer .footer-contact-info .contact-info .fa {
+  color: white;
+  min-width: 1.5em;
+}
 
 /*# sourceMappingURL=theme-bootstrap4.css.map */
