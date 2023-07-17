@@ -14714,7 +14714,6 @@ body {
   font-family: "Roboto", sans-serif;
   background: black;
   color: wheat;
-  min-height: 8000px;
 }
 
 .button {
@@ -15449,6 +15448,25 @@ body {
   text-align: center;
   color: black;
   margin-top: 30px;
+}
+
+#wrapper-footer {
+  padding: 100px;
+}
+#wrapper-footer .footer-testimonial {
+  text-align: center;
+  margin-bottom: 100px;
+}
+#wrapper-footer .footer-testimonial .testimonial .stars {
+  color: #ffbc00;
+  font-size: 42px;
+}
+#wrapper-footer .footer-testimonial .testimonial .quote {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+#wrapper-footer .footer-testimonial .testimonial .author {
+  color: #ffbc00;
 }
 
 /*# sourceMappingURL=theme-bootstrap4.css.map */

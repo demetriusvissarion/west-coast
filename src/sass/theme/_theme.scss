@@ -17,7 +17,6 @@ body {
 	font-family: "Roboto", sans-serif;
 	background: black;
 	color: wheat;
-	min-height: 8000px;
 }
 
 .button {
@@ -701,6 +700,29 @@ body {
 				text-align: center;
 				color: black;
 				margin-top: 30px;
+			}
+		}
+	}
+}
+
+#wrapper-footer {
+	padding: 100px;
+
+	.footer-testimonial {
+		text-align: center;
+		margin-bottom: 100px;
+
+		.testimonial {
+			.stars {
+				color: $primary;
+				font-size: 42px;
+			}
+			.quote {
+				font-size: 30px;
+				margin-bottom: 15px;
+			}
+			.author {
+				color: $primary;
 			}
 		}
 	}

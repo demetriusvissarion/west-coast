@@ -18,9 +18,27 @@ $container = get_theme_mod('understrap_container_type');
 
 <div class="wrapper" id="wrapper-footer">
 
+	<div class="footer-testimonial">
+		<div class="container">
+			<div class="testimonial">
+				<div class="stars">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<div class="quote">
+					"Amazing customer service and very good price will be definitly getting another one through these guys when needed so much help thankyou."
+				</div>
+				<div class="author">Damon, facebook review</div>
+			</div>
+		</div>
+	</div>
+
 </div><!-- #wrapper-footer -->
 
-<?php // Closing div#page from header.php. 
+<?php // Closing div#page from header.php.
 ?>
 </div><!-- #page -->
 
