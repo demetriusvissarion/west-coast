@@ -14746,6 +14746,16 @@ body {
   color: white;
   text-decoration: none;
 }
+.button.outline {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+}
+.button.outline:hover {
+  background: black;
+  color: #ffbc00;
+  text-decoration: none;
+}
 
 .top-header {
   background: black;
@@ -15386,6 +15396,34 @@ body {
     padding-left: 0px;
     padding-right: 0px;
   }
+}
+.home-product-info .home-we-accept {
+  margin-top: 75px;
+}
+.home-product-info .home-we-accept .title-holder {
+  display: -ms-flexbox;
+  display: flex;
+}
+.home-product-info .home-we-accept .title-holder h2 {
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 48px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+.home-product-info .home-we-accept .title-holder .button-holder {
+  margin-bottom: 30px;
+}
+.home-product-info .home-we-accept .circle {
+  margin-top: 30px;
+}
+.home-product-info .home-we-accept .circle .title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=theme-bootstrap4.css.map */

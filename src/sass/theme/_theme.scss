@@ -43,11 +43,25 @@ body {
 		color: $primary;
 		margin-right: 0.5em;
 	}
+
 	transition: ease 0.25s all;
+
 	&:hover {
 		background: $primary;
 		color: white;
 		text-decoration: none;
+	}
+
+	&.outline {
+		background: transparent;
+		border: 1px solid black;
+		color: black;
+
+		&:hover {
+			background: black;
+			color: $primary;
+			text-decoration: none;
+		}
 	}
 }
 
@@ -629,6 +643,39 @@ body {
 						padding-right: 0px;
 					}
 				}
+			}
+		}
+	}
+
+	.home-we-accept {
+		margin-top: 75px;
+		.title-holder {
+			display: flex;
+
+			h2 {
+				flex: 1;
+				font-size: 48px;
+				font-weight: bold;
+				color: black;
+				margin-bottom: 30px;
+			}
+
+			.button-holder {
+				margin-bottom: 30px;
+				.button {
+				}
+			}
+		}
+
+		.circle {
+			margin-top: 30px;
+
+			.title {
+				font-size: 24px;
+				font-weight: bold;
+				text-align: center;
+				color: black;
+				margin-top: 30px;
 			}
 		}
 	}
