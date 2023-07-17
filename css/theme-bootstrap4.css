@@ -15412,8 +15412,33 @@ body {
   color: black;
   margin-bottom: 30px;
 }
-.home-product-info .home-we-accept .title-holder .button-holder {
+@media (max-width: 992px) {
+  .home-product-info .home-we-accept .title-holder h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+.home-product-info .home-we-accept .button-holder {
   margin-bottom: 30px;
+}
+@media (max-width: 992px) {
+  .home-product-info .home-we-accept .button-holder {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .home-product-info .home-we-accept .button-holder.top {
+    display: none;
+  }
+}
+.home-product-info .home-we-accept .button-holder.bottom {
+  display: none;
+}
+@media (max-width: 992px) {
+  .home-product-info .home-we-accept .button-holder.bottom {
+    display: block;
+  }
 }
 .home-product-info .home-we-accept .circle {
   margin-top: 30px;

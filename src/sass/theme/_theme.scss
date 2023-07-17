@@ -649,6 +649,7 @@ body {
 
 	.home-we-accept {
 		margin-top: 75px;
+
 		.title-holder {
 			display: flex;
 
@@ -658,12 +659,36 @@ body {
 				font-weight: bold;
 				color: black;
 				margin-bottom: 30px;
+
+				@media (max-width: $lg) {
+					font-size: 30px;
+					text-align: center;
+				}
+			}
+		}
+
+		.button-holder {
+			margin-bottom: 30px;
+
+			@media (max-width: $lg) {
+				text-align: center;
+				margin-top: 30px;
 			}
 
-			.button-holder {
-				margin-bottom: 30px;
-				.button {
+			&.top {
+				@media (max-width: $lg) {
+					display: none;
 				}
+			}
+
+			&.bottom {
+				display: none;
+				@media (max-width: $lg) {
+					display: block;
+				}
+			}
+
+			.button {
 			}
 		}
 
