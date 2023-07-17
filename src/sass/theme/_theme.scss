@@ -510,6 +510,15 @@ body {
 			font-weight: bold;
 			margin-bottom: 15px;
 
+			@media (max-width: $lg) {
+				font-size: 30px;
+			}
+
+			@media (max-width: $md) {
+				font-size: 24px;
+				text-align: center;
+			}
+
 			i {
 				margin-right: 0.25em;
 			}
@@ -521,6 +530,11 @@ body {
 				color: black;
 				padding: 30px;
 				position: relative;
+				margin-bottom: 30px;
+
+				@media (max-width: $xl) {
+					padding-bottom: 60px;
+				}
 
 				img {
 				}
@@ -551,13 +565,22 @@ body {
 				}
 
 				.home-product-circles {
-					display: flex;
+					@media (max-width: $lg) {
+						padding-top: 15px;
+					}
+
+					display: flex; // ddv
 					.circle {
 						width: 100%;
 						padding-top: 100%;
 						background: $primary;
 						border-radius: 50%;
 						position: relative;
+						margin-bottom: 2em; // ddv
+
+						@media (max-width: $md) {
+							margin-top: 15px;
+						}
 
 						.abs-circle-holder {
 							position: absolute;
@@ -596,6 +619,15 @@ body {
 					border-top-left-radius: 15px;
 					border-top-right-radius: 15px;
 					text-transform: uppercase;
+
+					@media (max-width: $md) {
+						transform: none;
+						left: 30px;
+						right: 30px;
+						text-align: center;
+						padding-left: 0px;
+						padding-right: 0px;
+					}
 				}
 			}
 		}
