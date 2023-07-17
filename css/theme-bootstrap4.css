@@ -15521,5 +15521,18 @@ body {
   color: white;
   width: auto;
 }
+#wrapper-footer .copyright {
+  background: white;
+  padding: 20px;
+  color: black;
+}
+#wrapper-footer .copyright a {
+  color: black;
+}
+#wrapper-footer .copyright span {
+  color: #ffbc00;
+  margin-left: 1em;
+  margin-right: 1em;
+}
 
 /*# sourceMappingURL=theme-bootstrap4.css.map */

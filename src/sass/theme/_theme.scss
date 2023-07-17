@@ -786,4 +786,20 @@ body {
 			}
 		}
 	}
+
+	.copyright {
+		background: white;
+		padding: 20px;
+		color: black;
+
+		a {
+			color: black;
+		}
+
+		span {
+			color: $primary;
+			margin-left: 1em;
+			margin-right: 1em;
+		}
+	}
 }

@@ -55,6 +55,12 @@ $container = get_theme_mod('understrap_container_type');
 			</div>
 		</div>
 	</div>
+
+	<div class="copyright">
+		<div class="container">
+			© Copyright West Coast Waste 2023 <span>//</span> <a href="#">Terms & Conditions</a> <span>//</span> <a href="https://github.com/demetriusvissarion">Website by Demetrius</a>
+		</div>
+	</div>
 </div><!-- #wrapper-footer -->
 
 <?php // Closing div#page from header.php.
