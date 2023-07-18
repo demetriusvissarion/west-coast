@@ -43,32 +43,38 @@ $container = get_theme_mod('understrap_container_type');
 
 		<div class="row">
 
-			<?php
-			// Do the left sidebar check and open div#primary.
-			get_template_part('global-templates/left-sidebar-check');
-			?>
 
-			<main class="site-main" id="main">
+			<div class="col-lg-7">
 
-				<?php
-				while (have_posts()) {
-					the_post();
-					get_template_part('loop-templates/content', 'single');
-					understrap_post_nav();
+				<main class="site-main" id="main">
 
-					// If comments are open or we have at least one comment, load up the comment template.
-					if (comments_open() || get_comments_number()) {
-						comments_template();
+					<?php
+					while (have_posts()) {
+						the_post();
+						get_template_part('loop-templates/content', 'single');
+						understrap_post_nav();
+
+						// If comments are open or we have at least one comment, load up the comment template.
+						if (comments_open() || get_comments_number()) {
+							comments_template();
+						}
 					}
-				}
-				?>
+					?>
 
-			</main>
+				</main>
+			</div>
 
-			<?php
-			// Do the right sidebar check and close div#primary.
-			get_template_part('global-templates/right-sidebar-check');
-			?>
+			<div class="offset-lg-1 col-lg-4">
+				<div class="right-sidebar-blog-categories">
+					<h3>Blog Categories</h3>
+					<ul>
+						<li>Garden & Household clean-up</li>
+						<li>Heavy Loads (High volumes of dirt, concrete, bricks or rubble)</li>
+						<li>Ideal for narrow alleys or small streets</li>
+						<li>Building Sites</li>
+					</ul>
+				</div>
+			</div>
 
 		</div><!-- .row -->
 
