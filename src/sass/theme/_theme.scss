@@ -185,7 +185,7 @@ body {
 		border: 8px solid $primary;
 		background: white;
 		padding: 0px 10px;
-		width: 350px;
+		// width: 350px;  // ddv 18/07/2023
 		@media (max-width: $md) {
 			width: 100%;
 		}
@@ -842,6 +842,21 @@ body {
 	}
 }
 
+.page-header-holder {
+	margin-top: 100px;
+	margin-bottom: 30px;
+
+	@media (max-width: $md) {
+		margin-top: 60px;
+	}
+
+	h1 {
+		font-size: 48px;
+		font-weight: 300;
+		color: $primary;
+	}
+}
+
 .right-sidebar-promotion {
 	background: $primary;
 	border-radius: 15px;
@@ -852,6 +867,10 @@ body {
 	@media (max-width: $md) {
 		display: block;
 		padding: 30px;
+	}
+
+	@media (max-width: $lg) {
+		text-align: center;
 	}
 
 	.discount-circle {
@@ -873,24 +892,24 @@ body {
 			justify-content: center;
 			align-items: center;
 			display: inline-flex;
-
-			@media (max-width: $md) {
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-			}
 		}
 
-		@media (max-width: $xl) {
-			height: 156px;
-			min-width: 156px;
+		@media (max-width: $lg) {
+			width: 33%;
+			padding-top: 33%;
+			display: inline-block;
 		}
 
 		@media (max-width: $md) {
-			margin-top: 15px;
+			width: 50%;
+			padding-top: 50%;
+			display: inline-block;
+		}
+
+		@media (max-width: $sm) {
 			width: 100%;
 			padding-top: 100%;
+			display: inline-block;
 		}
 
 		.save {
@@ -910,7 +929,7 @@ body {
 			@media (max-width: $xl) {
 				font-size: 48px;
 			}
-			@media (max-width: $md) {
+			@media (max-width: $sm) {
 				font-size: 100px;
 			}
 		}
@@ -949,6 +968,38 @@ body {
 				margin-top: 15px;
 				margin-bottom: 15px;
 			}
+		}
+	}
+}
+
+#main {
+	.entry-content {
+		h2 {
+			margin-bottom: 1em;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 1em;
+
+			li {
+				margin: 0;
+				padding: 0;
+
+				&:before {
+					content: "\f0a9";
+					display: inline-block;
+					font-family: FontAwesome;
+					margin-right: 1em;
+					color: $primary;
+				}
+			}
+		}
+
+		img {
+			border-radius: 30px;
 		}
 	}
 }

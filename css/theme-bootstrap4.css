@@ -14888,7 +14888,6 @@ body {
   border: 8px solid #ffbc00;
   background: white;
   padding: 0px 10px;
-  width: 350px;
   border-radius: 15px;
   margin-top: -30px;
   margin-bottom: -30px;
@@ -15582,6 +15581,21 @@ body {
   margin-right: 1em;
 }
 
+.page-header-holder {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .page-header-holder {
+    margin-top: 60px;
+  }
+}
+.page-header-holder h1 {
+  font-size: 48px;
+  font-weight: 300;
+  color: #ffbc00;
+}
+
 .right-sidebar-promotion {
   background: #ffbc00;
   border-radius: 15px;
@@ -15593,6 +15607,11 @@ body {
   .right-sidebar-promotion {
     display: block;
     padding: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .right-sidebar-promotion {
+    text-align: center;
   }
 }
 .right-sidebar-promotion .discount-circle {
@@ -15619,26 +15638,25 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
-@media (max-width: 768px) {
-  .right-sidebar-promotion .discount-circle .abs-holder {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-}
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
   .right-sidebar-promotion .discount-circle {
-    height: 156px;
-    min-width: 156px;
+    width: 33%;
+    padding-top: 33%;
+    display: inline-block;
   }
 }
 @media (max-width: 768px) {
   .right-sidebar-promotion .discount-circle {
-    margin-top: 15px;
+    width: 50%;
+    padding-top: 50%;
+    display: inline-block;
+  }
+}
+@media (max-width: 576px) {
+  .right-sidebar-promotion .discount-circle {
     width: 100%;
     padding-top: 100%;
+    display: inline-block;
   }
 }
 .right-sidebar-promotion .discount-circle .save {
@@ -15665,7 +15683,7 @@ body {
     font-size: 48px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .right-sidebar-promotion .discount-circle .percent {
     font-size: 100px;
   }
@@ -15705,6 +15723,30 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
   }
+}
+
+#main .entry-content h2 {
+  margin-bottom: 1em;
+}
+#main .entry-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+}
+#main .entry-content ul li {
+  margin: 0;
+  padding: 0;
+}
+#main .entry-content ul li:before {
+  content: "\f0a9";
+  display: inline-block;
+  font-family: FontAwesome;
+  margin-right: 1em;
+  color: #ffbc00;
+}
+#main .entry-content img {
+  border-radius: 30px;
 }
 
 /*# sourceMappingURL=theme-bootstrap4.css.map */

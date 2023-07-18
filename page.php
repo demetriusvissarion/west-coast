@@ -20,10 +20,14 @@ $container = get_theme_mod('understrap_container_type');
 
 ?>
 
-<div class="container">
-	<div class="entry-header">
-		<?php the_title('<h1 class="entry-title">', '</h1>'); ?>
+<div class="page-header-holder">
+
+	<div class="container">
+		<div class="entry-header">
+			<?php the_title('<h1 class="entry-title">', '</h1>'); ?>
+		</div>
 	</div>
+
 </div>
 
 <div class="wrapper" id="page-wrapper">
@@ -32,7 +36,7 @@ $container = get_theme_mod('understrap_container_type');
 
 		<div class="row">
 
-			<div class="col-lg-8">
+			<div class="col-lg-7">
 
 				<main class="site-main" id="main">
 
@@ -52,7 +56,7 @@ $container = get_theme_mod('understrap_container_type');
 
 			</div>
 
-			<div class="col-lg-4">
+			<div class="offset-1 col-lg-4">
 				<div class="right-sidebar-promotion">
 
 					<div class="discount-circle">
