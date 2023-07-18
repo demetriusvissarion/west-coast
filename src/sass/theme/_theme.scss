@@ -397,7 +397,6 @@ body {
 .home-product-info {
 	background: $primary;
 	padding-top: 200px;
-	padding-bottom: 100px;
 
 	.home-special-offer-background-overlay {
 		position: relative;
@@ -649,62 +648,64 @@ body {
 			}
 		}
 	}
+}
 
-	.home-we-accept {
-		margin-top: 75px;
+.home-we-accept {
+	padding-top: 75px;
+	padding-bottom: 75px;
+	background: $primary;
 
-		.title-holder {
-			display: flex;
+	.title-holder {
+		display: flex;
 
-			h2 {
-				flex: 1;
-				font-size: 48px;
-				font-weight: bold;
-				color: black;
-				margin-bottom: 30px;
-
-				@media (max-width: $lg) {
-					font-size: 30px;
-					text-align: center;
-				}
-			}
-		}
-
-		.button-holder {
+		h2 {
+			flex: 1;
+			font-size: 48px;
+			font-weight: bold;
+			color: black;
 			margin-bottom: 30px;
 
 			@media (max-width: $lg) {
+				font-size: 30px;
 				text-align: center;
-				margin-top: 30px;
 			}
+		}
+	}
 
-			&.top {
-				@media (max-width: $lg) {
-					display: none;
-				}
-			}
+	.button-holder {
+		margin-bottom: 30px;
 
-			&.bottom {
+		@media (max-width: $lg) {
+			text-align: center;
+			margin-top: 30px;
+		}
+
+		&.top {
+			@media (max-width: $lg) {
 				display: none;
-				@media (max-width: $lg) {
-					display: block;
-				}
-			}
-
-			.button {
 			}
 		}
 
-		.circle {
-			margin-top: 30px;
-
-			.title {
-				font-size: 24px;
-				font-weight: bold;
-				text-align: center;
-				color: black;
-				margin-top: 30px;
+		&.bottom {
+			display: none;
+			@media (max-width: $lg) {
+				display: block;
 			}
+		}
+
+		.button {
+		}
+	}
+
+	.circle {
+		margin-top: 30px;
+
+		.title {
+			font-size: 24px;
+			font-weight: bold;
+			text-align: center;
+			color: black;
+			margin-top: 30px;
 		}
 	}
 }
@@ -860,6 +861,7 @@ body {
 .post-header-holder {
 	height: 600px;
 	background: black;
+	background-image: url(../img/page-placeholder.jpg);
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -887,10 +889,79 @@ body {
 	margin-bottom: 50px;
 }
 
+.post-navigation-options {
+	border-top: 4px dashed $primary;
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	a {
+		display: inline-block;
+		color: white;
+		border: 1px solid $primary;
+		padding: 0.5em 1em;
+		background: black;
+		border-radius: 1.5em;
+		font-size: 20px;
+
+		@media (max-width: $md) {
+			margin-left: 0px;
+		}
+
+		&.top-header-contact-email {
+			@media (max-width: $xl) {
+				display: none;
+			}
+		}
+
+		.fa {
+			color: $primary;
+			margin-right: 0.5em;
+		}
+
+		transition: ease 0.25s all;
+
+		&:hover {
+			background: $primary;
+			color: white;
+			text-decoration: none;
+		}
+
+		background: transparent;
+
+		&:hover {
+			background: black;
+			color: $primary;
+			text-decoration: none;
+		}
+	}
+}
+
 .right-sidebar-blog-categories {
+	line-height: 2;
 	h3 {
 		font-size: 30px;
 		color: $primary;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			margin: 0;
+			padding: 0;
+			font-weight: 500;
+
+			&:before {
+				content: "\f0a9";
+				display: inline-block;
+				font-family: FontAwesome;
+				margin-right: 0.5em;
+				color: $primary;
+			}
+		}
 	}
 }
 

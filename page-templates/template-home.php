@@ -297,50 +297,6 @@ if (is_page_template('page-templates/no-title.php')) {
 		</div>
 	</div>
 
-	<div class="home-we-accept">
-		<div class="container">
-			<div class="title-holder">
-				<h2>We accept the following waste</h2>
-				<div class="button-holder top">
-					<a href="#" class="button outline">read the full list of acceptable waste</a>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-3 col-sm-6">
-					<div class="circle">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/home-we-accept-1.svg" alt="Home We Accept Waste 1" width="100%">
-						<div class="title">Commercial Waste</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-sm-6">
-					<div class="circle">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/home-we-accept-2.svg" alt="Home We Accept Waste 2" width="100%">
-						<div class="title">Building Waste</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-sm-6">
-					<div class="circle">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/home-we-accept-3.svg" alt="Home We Accept Waste 3" width="100%">
-						<div class="title">Green Waste</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-sm-6">
-					<div class="circle">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/home-we-accept-4.svg" alt="Home We Accept Waste 4" width="100%">
-						<div class="title">Household Waste</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="button-holder bottom">
-				<a href="#" class="button outline">read the full list of acceptable waste</a>
-			</div>
-		</div>
-	</div>
 </div>
 
 
