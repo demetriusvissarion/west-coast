@@ -15670,6 +15670,11 @@ body {
     font-size: 100px;
   }
 }
+.right-sidebar-promotion .button {
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
 .right-sidebar-promotion .entry-content {
   color: black;
   line-height: 1.15;

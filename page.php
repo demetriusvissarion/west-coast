@@ -65,7 +65,7 @@ $container = get_theme_mod('understrap_container_type');
 					<div class="entry-content">
 						<div class="title">15 Day Storm Special on Skip Bins</div>
 						<div class="desc">BIN SERVICES - Perth, Fremantle, Kwinana, Rockingham, mandurah, Pinjarra, Waroona, Harvey, Australind, Bunbury, Busselton, Margaret River</div>
-						<a href="#" class="button outline">Find out more information</a>
+						<a href="#" class="button outline">Find out more</a>
 					</div>
 
 				</div>
