@@ -23,6 +23,20 @@ $container = get_theme_mod('understrap_container_type');
 
 </div>
 
+<div class="post-header-metadata">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<i class="fa fa-calendar"></i> Post Date: <?php echo get_the_date('d.m.Y'); ?>
+			</div>
+
+			<div class="col-lg-6">
+				<i class="fa fa-bars"></i> Post Category: <?php echo get_the_category()[0]->cat_name; ?>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="wrapper" id="single-wrapper">
 
 	<div class="<?php echo esc_attr($container); ?>" id="content" tabindex="-1">

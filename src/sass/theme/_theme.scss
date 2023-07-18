@@ -862,6 +862,28 @@ body {
 	background: black;
 	background-size: cover;
 	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	h1 {
+		font-size: 48px;
+		color: black;
+		font-weight: 400;
+		background: $primary;
+		padding: 0.5em 1em;
+		display: inline-block;
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		margin-bottom: 0px;
+	}
+}
+
+.post-header-metadata {
+	background: white;
+	padding: 1em;
+	font-weight: 300;
+	color: black;
 }
 
 .right-sidebar-promotion {
