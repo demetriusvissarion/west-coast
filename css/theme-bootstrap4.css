@@ -15125,6 +15125,7 @@ body {
 .home-product-info {
   background: #ffbc00;
   padding-top: 200px;
+  padding-bottom: 30px;
 }
 .home-product-info .home-special-offer-background-overlay {
   position: relative;
@@ -15400,7 +15401,9 @@ body {
 }
 
 .home-we-accept {
-  padding-top: 100px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background: #ffbc00;
 }
 .home-we-accept .title-holder {
   display: -ms-flexbox;

@@ -251,7 +251,7 @@ if (is_page_template('page-templates/no-title.php')) {
 						</div>
 
 						<div class="col-xl-4 col-md-6">
-							<div class="title">15 Cubic Metre Hook Lift Bin</div>
+							<div class="title">15 Cubic Metre Lift Bin</div>
 							<ul>
 								<li>Garden & Household clean-up</li>
 								<li>Heavy Loads (dirt, concrete, bricks or rubble)</li>
